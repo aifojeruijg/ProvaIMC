@@ -1,0 +1,14 @@
+POST https://localhost:5001/api/imc/cadastrar
+Content-Type: application/json
+
+{
+   "altura": 1.6,
+   "peso": 120,
+   "usuarioId": 1
+}
+
+### Listar Imcs
+GET https://localhost:5001/api/imc/listar
+
+### Buscar Imc
+GET https://localhost:5001/api/imc/buscar/3
